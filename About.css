@@ -332,7 +332,7 @@
   
   .u-section-3 .u-image-1 {
     min-height: 466px;
-    background-image: url("//images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/3857b22425af552aaa22cd00/pexels-photo-4021775.jpeg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-ZQU6LpW6kU7ntfRYbh89cUdhULl5CZAdQ&usqp=CAU");
     background-position: 50% 50%;
   }
   
@@ -350,7 +350,7 @@
   
   .u-section-3 .u-text-2 {
     font-size: 1.25rem;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     text-transform: uppercase;
     margin: 0;
   }
@@ -504,7 +504,7 @@
       min-height: 334px;
     }
   } .u-section-4 {
-    background-image: url("//images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/fe3cc86f7a7d5b409c131ff4/pexels-photo-5207089.png");
+    background-image: url("./imgs/banner.jpg");
     background-position: 50% 100%;
   }
   
