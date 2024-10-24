@@ -8,7 +8,7 @@
       content="Patient Services, Medical Services, Preventive services, Specific goals for therapy will be determined by you and your therapist, Dental Care, Direct Primary Care, Let&amp;apos;s Connect"
     />
     <meta name="description" content="" />
-    <title>About</title>
+    <title>GUIA INFORMATIVO SOBRE MEDICAMENTOS BENZODIAZEPÍNICOS</title>
     <link
       rel="stylesheet"
       href="//capp.nicepage.com/46d51b0ec54023c32eafc05e8f547423a386d9c7/nicepage.css"
@@ -57,19 +57,6 @@
       function gdprConfirmed() {
         return true;
       }
-      function dynamicLoadScript(src) {
-        var script = document.createElement("script");
-        script.src =
-          src && typeof src === "string"
-            ? src
-            : "https://www.google.com/recaptcha/api.js?render=6Lc2HDEiAAAAALpe1yqNarK-BmlyYl_MNPZx7_AB";
-        script.async = true;
-        document.body.appendChild(script);
-        script.onload = function () {
-          let event = new CustomEvent("recaptchaLoaded");
-          document.dispatchEvent(event);
-        };
-      }
       document.addEventListener("DOMContentLoaded", function () {
         var confirmButton = document.querySelector(
           ".u-cookies-consent .u-button-confirm"
@@ -85,62 +72,6 @@
           return;
         }
         dynamicLoadScript();
-      });
-    </script>
-    <script>
-      document.addEventListener("recaptchaLoaded", function () {
-        if (!gdprConfirmed()) {
-          return;
-        }
-        (function (grecaptcha, sitekey, actions) {
-          var recaptcha = {
-            execute: function (action, submitFormCb) {
-              try {
-                grecaptcha
-                  .execute(sitekey, { action: action })
-                  .then(function (token) {
-                    var forms = document.getElementsByTagName("form");
-
-                    for (var i = 0; i < forms.length; i++) {
-                      var fields = forms[i].getElementsByTagName("input");
-
-                      for (var j = 0; j < fields.length; j++) {
-                        var field = fields[j];
-
-                        if (
-                          "recaptchaResponse" === field.getAttribute("name")
-                        ) {
-                          field.setAttribute("value", token);
-                          break;
-                        }
-                      }
-                    }
-                    submitFormCb();
-                  });
-              } catch (e) {
-                var formError = document.querySelector(".u-form-send-error");
-
-                if (formError) {
-                  formError.innerText =
-                    "Неверный владелец сайта: " +
-                    e.message.replace(/:[\s\S]*/, "");
-                  formError.style.display = "block";
-                }
-              }
-            },
-
-            executeContact: function (submitFormCb) {
-              recaptcha.execute(actions["contact"], submitFormCb);
-            },
-          };
-
-          window.recaptchaObject = recaptcha;
-        })(
-          grecaptcha,
-
-          "6Lc2HDEiAAAAALpe1yqNarK-BmlyYl_MNPZx7_AB",
-          { contact: "contact" }
-        );
       });
     </script>
   </head>
@@ -501,7 +432,7 @@
                   <h5
                     class="u-custom-font u-font-ubuntu u-text u-text-palette-4-base u-text-1"
                   >
-                    informacoes adicionais
+                    informacões adicionais
                   </h5>
                   <h2 class="u-custom-font u-font-ubuntu u-text u-text-2">
                     POR QUANTO TEMPO POSSO USAR ESSES MEDICAMENTOS?
@@ -509,7 +440,7 @@
                   <a
                     href="#"
                     class="u-active-palette-1-light-3 u-border-none u-btn u-button-style u-hover-palette-4-dark-1 u-palette-4-base u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1"
-                    >Anotação de livro</a
+                    >Anota aí!</a
                   >
                 </div>
               </div>
@@ -1172,18 +1103,5 @@
         </p>
       </div>
     </footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <p class="u-text">
-        <span>Este site foi criado com o </span>
-        <a
-          class="u-link"
-          href="https://nicepage.com/"
-          target="_blank"
-          rel="nofollow"
-        >
-          <span>Nicepage</span>
-        </a>
-      </p>
-    </section>
   </body>
 </html>
