@@ -1,5 +1,5 @@
 .u-section-1 {
-    background-image: url("./imgs/banner.jpg");
+    background-image: url("./imgs/bg-principal.jpg");
     background-position: 50% 50%;
   }
   
@@ -123,7 +123,6 @@
   
   .u-section-2 .u-text-1 {
     font-size: 3rem;
-    width: 535px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 70px auto 0;
@@ -324,7 +323,7 @@
     font-weight: 700;
     margin: 12px auto 0;
   }
-  
+
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 52px;
     margin-bottom: 42px;
@@ -332,7 +331,7 @@
   
   .u-section-3 .u-image-1 {
     min-height: 466px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-ZQU6LpW6kU7ntfRYbh89cUdhULl5CZAdQ&usqp=CAU");
+    background-image: url("./imgs/efeitos-colaterais.png");
     background-position: 50% 50%;
   }
   
