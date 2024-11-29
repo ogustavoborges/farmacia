@@ -4355,6 +4355,15 @@
     color: #111111;
     background-color: #fff6f7;
   }
+
+  .card-bg{
+    background-color: #fff;
+  }
+
+  .section-bg{
+    background-color: #fff6f7;
+  }
+
   .u-input.u-palette-4-light-3,
   .u-field-input.u-palette-4-light-3,
   .u-button-style.u-palette-4-light-3,
