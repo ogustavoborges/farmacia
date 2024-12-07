@@ -503,12 +503,12 @@
       min-height: 334px;
     }
   } .u-section-4 {
-    background-image: url("./imgs/comprimidos.jpeg");
+    background-image: url("./imgs/comprimidos.png");
     background-position: 50% 100%;
   }
   
   .u-section-4 .u-sheet-1 {
-    min-height: 625px;
+    min-height: 300px;
   }
   
   @media (max-width: 1199px) {
